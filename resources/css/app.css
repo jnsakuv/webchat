@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+
+@import 'tailwindcss/utilities';
+
+.messageFromMe {
+    @apply bg-indigo-300 bg-opacity-30;
+  }
+  .messageToMe {
+    @apply bg-gray-300 bg-opacity-30;
+  }
